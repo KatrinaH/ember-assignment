@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ember-assignment
 
 This README outlines the details of collaborating on this Ember application.
@@ -51,3 +52,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+=======
+# ember-assignment
+Ember Homework!
+>>>>>>> a4074ee8a483b3daf9fc81d88d0909e5b8a33c7a
