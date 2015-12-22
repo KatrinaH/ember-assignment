@@ -12,10 +12,13 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
-
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+    contentSecurityPolicy: {
+      'style-src': "'self' 'unsafe-inline'",
+      'connect-src': "'self' ws://localhost:49152 ws://0.0.0.0:49152"
     }
   };
 
@@ -40,7 +43,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    
   }
 
   return ENV;
