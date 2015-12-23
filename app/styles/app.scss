@@ -1,0 +1,32 @@
+$margin: 10px;
+$font16: 16px;
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: $font16;
+	margin: 0;
+}
+
+.container {
+	padding-top: 10px;
+}
+
+div {
+	margin-bottom: $margin * 2;
+}
+
+img {
+	border-radius: 50%;
+	float: left;
+}
+
+.info {
+	position: relative;
+	margin-left: $margin * 7;
+}
+
+.day {
+	font-size: .75em;
+	color: #ccc;
+	text-indent: 7px;
+}
