@@ -1,13 +1,15 @@
-<h3>Messages page</h3>
 {{outlet}}
-<ul>
-{{#each model as |message|}}
-<li>
-<p>Username: {{message.username}}</p>
-<p>Date: {{message.date}}</p>
-<p><img src="{{message.pic}}"></p>
-<p>Useragent: {{message.useragent}}</p>
-<p>Message: {{message.message}}</p>
-</li>
+
+	{{#each model as |message|}}
+	<div class="container">
+		<div class="photo">
+			<img src="{{message.pic}}" alt="{{message.username}}">
+		</div>
+		<div class="info">
+			<div class="first">{{message.message}}</div>
+			<div>{{message.fullName}}</div>
+			<div>{{message.useragent}}</div>
+			<div class="day">{{message.date}}</div>
+		</div>
+	</div>
 {{/each}}
-</ul>
