@@ -9,6 +9,9 @@ export default DS.Model.extend({
   pic: DS.attr(),
   fullName: Ember.computed('username', function() {
   		var str = `${this.get('username')}`;
-			return str.replace(/\./g, ' ').replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+			return str
+				.replace(/\./g, ' ')
+				.replace(/[0-9]/g, '')
+				.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 		})
 });
