@@ -5,6 +5,7 @@ const Router = Ember.Router.extend({
   location: config.locationType
 });
 
+// route for the '/messages' url
 Router.map(function() {
   this.route('messages');
 });
