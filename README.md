@@ -1,7 +1,6 @@
 # Ember-assignment
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Using Ember.js and the Ember CLI, create a “/messages” route that connects to a “messages” API endpoint and display each message in a formatted feed view.
 
 ## Prerequisites
 
